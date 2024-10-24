@@ -1,0 +1,7 @@
+from node:22
+maintainer "Gopi<gopikrishna9518@gmail.com>"
+copy . /app
+workdir /app
+run npm install
+expose 3000
+cmd ["npm","start"]
